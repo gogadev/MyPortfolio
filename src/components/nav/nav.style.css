@@ -1,0 +1,26 @@
+nav {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.title {
+  font-size: 2.6rem;
+  letter-spacing: 5px;
+  transform: skewX(-15deg);
+}
+
+.title span {
+  font-size: 3rem;
+  color: grey;
+  font-weight: 100;
+}
+
+.list {
+  margin: 0.5rem auto;
+  list-style-type: none;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+}

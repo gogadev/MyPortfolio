@@ -1,0 +1,56 @@
+.contact-section {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem auto;
+  background: rgba(248, 247, 247, 0.849);
+}
+
+.contact-image {
+  background: white;
+  width: 100vw;
+}
+
+.contact-img {
+  width: 10%;
+  margin: 1rem auto;
+}
+
+.icons {
+  width: 100%;
+  border-bottom: 1px solid rgb(219, 217, 217);
+}
+
+.social-icons {
+  width: 10%;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.email {
+  margin-top: 1rem;
+  width: 25%;
+  transform: skewX(-20deg);
+  letter-spacing: 5px;
+  font-size: 1.6rem;
+  color: grey;
+  font-weight: 100;
+}
+
+.contact-btn {
+  display: grid;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .social-icons {
+    width: 23%;
+  }
+  .contact-img {
+    width: 30%;
+  }
+  .email {
+    width: 100%;
+  }
+}
